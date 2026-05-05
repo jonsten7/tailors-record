@@ -8,7 +8,7 @@ import models
 app = FastAPI()
 
 origins = [
-    "http://localhost:4200",  # Allow your Angular app's origin
+    "*",  # Allow your Angular app's origin
 ]
 
 app.add_middleware(
